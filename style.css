@@ -1,5 +1,14 @@
+*{
+  font: bold , Consolas, Monaco, monospace;
+  
+}
 
-   
+body {
+  background: #83a4d4; 
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  
+background: linear-gradient(to right, #b6fbff, #83a4d4); 
+
+}   
 
 .nav-conteiner{
     height: 10vh;
@@ -7,8 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(195,222,245,1) 25%, rgba(67,152,224,1) 50%, rgba(195,222,245,1) 75%, rgba(255,255,255,1) 100%);
+    
 }
 
 
@@ -28,7 +36,8 @@
 .nav li {
     display: block;
     text-decoration: none;
-    padding: 1.5rem;
+    padding: 6rem;
+    letter-spacing: 3px;
     font-size: 1.5rem;
     list-style: none;
     flex: auto ;
@@ -78,6 +87,33 @@ a:link {
     text-decoration: underline;
   }
 
-
-
+  @-webkit-keyframes typing { from { width: 0; } }
+  @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
   
+  h1 { 
+    
+    border-right: .1em solid black;
+    width: 16.5em; 
+    width: 21ch;
+    margin: 2em 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 3s steps(36, end),
+               blink-caret .5s step-end infinite alternate;
+  }
+
+.tag {
+  width: 100%;
+  height: 80vh;
+display: flex;
+align-items: center;
+justify-content: space-arround;
+
+}
+
+.tag img{
+  position: absolute;
+  align-items: center;
+  right: 10rem;
+
+}
