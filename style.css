@@ -44,7 +44,7 @@ background: linear-gradient(to right, #b6fbff, #83a4d4);
     
 }
 .nav li a{
-    color: white;} 
+    color: black;} 
 
 .nav-redes ul {
   display: flex;
@@ -54,10 +54,10 @@ background: linear-gradient(to right, #b6fbff, #83a4d4);
 
 .nav-redes li {
     display: block;
-    text-decoration: none;
-    padding: .5rem 1rem;
+    padding: 1rem;
     list-style: none;
     flex: auto ;
+    font-size: 1.5rem;
     
     }
 
@@ -66,7 +66,7 @@ width: 1.5rem;
 padding: 1.5rem 0.5rem;
 
 }
- .nav li :hover {
+ a:hover {
   background-color: rgb(255,255,255,0.3);
   color: black;
   text-decoration: none;
@@ -87,8 +87,8 @@ a:link {
     text-decoration: underline;
   }
 
-  @-webkit-keyframes typing { from { width: 0; } }
-  @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+  @keyframes typing { from { width: 0; } }
+  @keyframes blink-caret { 50% { border-color: transparent; } }
   
   h1 { 
     
@@ -98,8 +98,8 @@ a:link {
     margin: 2em 1em;
     white-space: nowrap;
     overflow: hidden;
-    -webkit-animation: typing 3s steps(36, end),
-               blink-caret .5s step-end infinite alternate;
+    animation: typing 3s steps(36, end),
+               blink-caret 1s step-end infinite alternate;
   }
 
 .tag {
@@ -107,13 +107,11 @@ a:link {
   height: 80vh;
 display: flex;
 align-items: center;
-justify-content: space-arround;
+justify-content: center;
 
 }
 
 .tag img{
   position: absolute;
-  align-items: center;
-  right: 10rem;
-
+  right: 3rem;
 }
