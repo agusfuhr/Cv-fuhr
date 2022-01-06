@@ -1,6 +1,7 @@
 *{
   font: bold , Consolas, Monaco, monospace;
-  
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -74,6 +75,19 @@ padding: 1.5rem 0.5rem;
 }
 
 
+.sidebar{
+  background-color: rgb(255,255,255,0.3);
+  width: 30vw;
+  height: 100vh;
+  border-radius: 15px;
+}
+
+.conteiner {
+  display: flex;
+  align-content: space-between;
+}
+
+
 
 a:link {
     text-decoration: none;
@@ -92,28 +106,57 @@ a:link {
   
 
   h1 {
-    position: initial;
-  }
-  h2 { 
     
-    border-right: .1em solid black;
-    width: 16.5em; 
-    width: 21ch;
-    margin: 2em 1em;
-    white-space: nowrap;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  h2 { 
+    text-align: center;
+    width: 80vh;
+    padding: 1rem;
+    /* white-space: nowrap;
     overflow: hidden;
     animation: typing 3s steps(36, end),
-               blink-caret 1s step-end infinite alternate;
+    blink-caret 2s step-end infinite alternate; */
   }
+
+  h3{
+    text-align: center;
+  }
+
+  .sidebar p{
+text-align: justify;
+margin: 10px;
+
+  }
+
+.description{
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  
+  
+}
 
 .tag {
   width: 100%;
   height: 80vh;
 display: flex;
 align-items: center;
-justify-content: center;
 
 }
+
+.description p {
+  width: 40vw;
+  text-align: center;
+}
+
+
+
 
 .tag img{
   height: 300px;
@@ -124,7 +167,7 @@ justify-content: center;
   box-shadow: 0px 0px 72px 2px rgba(0,0,0,0.58);
   filter: blur(2px);
   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-  transition: 1s;
+  transition: 1s ;
 
 }
 
