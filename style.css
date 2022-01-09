@@ -5,9 +5,8 @@
 }
 
 body {
-  background: #83a4d4; 
-background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  
-background: linear-gradient(to right, #b6fbff, #83a4d4); 
+  background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
+  
 
 }   
 
@@ -15,7 +14,7 @@ background: linear-gradient(to right, #b6fbff, #83a4d4);
     height: 10vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -28,6 +27,8 @@ background: linear-gradient(to right, #b6fbff, #83a4d4);
     
     
 }
+
+
 .nav ul{
     display: flex;
     padding: 0;
@@ -55,12 +56,8 @@ background: linear-gradient(to right, #b6fbff, #83a4d4);
 }
 
 .nav-redes li {
-    display: block;
-    padding: 1rem;
+    padding: 0.3rem;
     list-style: none;
-    flex: auto ;
-    font-size: 1.5rem;
-    
     }
 
 .nav li:hover{
@@ -70,8 +67,11 @@ background: linear-gradient(to right, #b6fbff, #83a4d4);
 
 
 .img-redes{
-width: 2.5rem;
-padding: 1.5rem 0.5rem;
+display: flex;
+justify-content: center;
+height: 3vh;
+margin: 0;
+padding: 0;
 
 }
  .nav a:hover {
@@ -89,15 +89,17 @@ padding: 1.5rem 0.5rem;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  background-color: rgb(255,255,255,0.3);
+  background-color: rgb(255,255,255,0.8);
   width: 30vw;
   height: 100%;
   border-radius: 15px;
+  
 }
 
 
 
 .conteiner {
+  
   display: flex;
   align-content: space-between;
 }
@@ -138,13 +140,14 @@ a:link {
   }
 
   .sidebar p{
-text-align: justify;
+text-align: center;
 margin: 10px;
 
   }
 
 .description{
-  width: 80vh;
+  height: 100%;
+  width: 50vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -153,27 +156,29 @@ margin: 10px;
   
 }
 
-.tag {
+.conteiner-tag {
+  padding: 5rem auto;
   width: 100%;
-  height: 80vh;
-display: flex;
+  display: flex;
+flex-direction: column;
 align-items: center;
+justify-content: space-around; 
+
 
 }
 
 .description p {
   padding: 10px;
-  text-align: center;
+  text-align: justify;
 }
 
 
 
 
-.tag img{
-  
+
+.fuhr{
+ 
   height: 300px;
-  position: absolute;
-  right: 5rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 72px 2px rgba(0,0,0,0.58);
   border-radius:50%;
@@ -184,9 +189,13 @@ align-items: center;
   
 }
 
-.tag img:hover{
+
+
+.fuhr-a:hover{
+  z-index: 0;
   filter: blur(3px);
   cursor: pointer;
+  
   
 }
 .accordion-body-hobby{
@@ -195,42 +204,129 @@ align-items: center;
   grid-template-columns: 25vh 25vh 25vh 25vh;
 }
 
-.hobby {
-  display: grid;
-  margin: auto;
-  grid-template-columns: 25vh 25vh;
-  grid-column: 10ch, 10ch;
-  width: 50vh;
-  height: 30ch;
+.hobby{
+ display: grid;
+ margin: auto;
+ grid-template-columns: 6rem 6rem;
 
 }
 
-.hobby img {
-  padding: 2rem;
-  width: 10vw;
+.hobby a img {
+  padding: 1rem ;
+  width: 6rem;
 
 }
+.logo-conteiner{
+  width: 30vw;
+  display: flex;
+  justify-content: center; 
+}
+.logo-sidebar{
+  height: 19vh;
+}
+
+
+
+
+
+
+
 
 .accordion {
   display: none;
 }
+.menu-toggle:checked + .sidebar{
+  display: none;
+}
+
+.menu-toggle{
+  display: none;
+  
+  }
+
+  .menu-button {
+    position: absolute;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: 40px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 7px;
+    background:#478AD6;
+    cursor: pointer;
+    border-style: solid ;
+}
+
+
+.card a img {
+height: 180px ;
+
+
+}
+
+.card{
+  background-color: rgb(255,255,255,0.8);
+  width: 300px;
+}
+
+
+
+.img-thumbnail{
+  
+  padding: 1;
+  
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 600px) {
 
-  
 
-  .nav{
+  .card-group{
     display: none;
   }
+
+
+  .img-redes{
+  height: 23px;
+  margin: 0;
+  padding: 0;
+
+  
+}
+.menu-button{
+  display: none;
+}
+
+  .nav {
+    display: none;
+  }
+  .description p{
+    text-align: center;
+  }
+
 
   .description{
     width: 100%;
     justify-content: space-around;
   }
 
-  .tag{
-  flex-direction: column-reverse;
+  .conteiner-tag{
+    height: 120vh;
+    align-items: center;
+    flex-direction: column;
       
   }
   .tag img{
@@ -244,14 +340,17 @@ align-items: center;
     }
 
     
-   .tag img {
-     width: 50%;
+   .fuhr{
+    height: 200px;
+
    }
     .accordion {
-      display: block;
-          }
+    display: block;
+   }
+
+
 .accordion-body{
-  background: linear-gradient(to right, #b6fbff, #83a4d4); 
+  background-image: linear-gradient( 132.6deg,  rgba(71,139,214,0.7) 23.3%, rgba(37,216,211,1) 84.7% );
+}
 }
 
-}
