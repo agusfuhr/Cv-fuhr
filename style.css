@@ -92,7 +92,7 @@ padding: 0;
   background-color: rgb(255,255,255,0.8);
   width: 30vw;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 30px;
   
 }
 
@@ -267,6 +267,7 @@ height: 180px ;
 }
 
 .card{
+  border-radius: 10%;
   background-color: rgb(255,255,255,0.8);
   width: 300px;
 }
@@ -281,7 +282,10 @@ height: 180px ;
 
 }
 
-
+.card-group{
+  padding: 10px;
+  
+}
 
 
 
