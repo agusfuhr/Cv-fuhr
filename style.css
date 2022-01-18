@@ -4,7 +4,6 @@
         padding: 0;
     }
     
-<<<<<<< HEAD
     body {
         background-image: linear-gradient(132.6deg, rgba(71, 139, 214, 1) 23.3%, rgba(37, 216, 211, 1) 84.7%);
     }
@@ -201,261 +200,8 @@
     
     .logo-sidebar {
         height: 19vh;
-=======
-    text-align: center;
-    padding: 10px;
-  }
-
-
-  h2 {
-    text-align: center;
-     
-    
-  }
-
-  h3{
-    text-align: center;
-  }
-
-  .sidebar p{
-text-align: center;
-margin: 10px;
-
-  }
-
-.description{
-  height: 100%;
-  width: 50vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 50vh;
-  
-  
-}
-
-.conteiner-tag {
-  padding: 5rem auto;
-  width: 100%;
-  display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around; 
-
-
-
-
-
-}
-
-.description p {
-  padding: 10px;
-  text-align: justify;
-}
-
-
-
-
-
-.fuhr{
- 
-  height: 300px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 72px 2px rgba(0,0,0,0.58);
-  border-radius:50%;
-  filter: blur(0px);
-  transition: 1s ;
-  opacity: 1;
-  transition: opacity .25s ease-in-out;
-  
-}
-
-
-
-.fuhr-a:hover{
-  z-index: 0;
-  filter: blur(3px);
-  cursor: pointer;
-  
-}
-
-
-.conteiner-code{
-  padding: 10px;
-  width: 60vw;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  border: 2px solid black;
-  border-radius: 15px;
-}
-
-.conteiner-code img{
-  width: 50px;
-}
-
-
-
-.accordion-body-hobby{
-  display: grid;
-  margin: auto;
-  grid-template-columns: 25vh 25vh 25vh 25vh;
-}
-
-.hobby{
- display: grid;
- margin: auto;
- grid-template-columns: 6rem 6rem;
-
-}
-
-.hobby a img {
-  padding: 1rem ;
-  width: 6rem;
-
-}
-.logo-conteiner{
-  width: 30vw;
-  display: flex;
-  justify-content: center; 
-}
-.logo-sidebar{
-  height: 19vh;
-}
-
-
-
-
-
-
-
-
-.accordion {
-  display: none;
-}
-.menu-toggle:checked + .sidebar{
-  display: none;
-}
-
-.menu-toggle{
-  display: none;
-  
-  }
-
-  .menu-button {
-    position: absolute;
-    margin: auto;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-around;
-    width: 40px;
-    height: 50px;
-    padding: 10px;
-    border-radius: 7px;
-    background:#478AD6;
-    cursor: pointer;
-    border-style: solid ;
-}
-
-
-.card a img {
-height: 180px ;
-
-
-}
-
-.card{
-  border-radius: 10%;
-  background-color: rgb(255,255,255,0.8);
-  width: 300px;
-}
-
-
-
-.img-thumbnail{
-  
-  padding: 1;
-  
-  width: 100%;
-
-}
-
-.card-group{
-  padding: 10px;
-  
-}
-
-.carousel{
-  width: 80%;
-  margin: auto;
-  display: none;
-}
-
-
-
-
-
-
-#carouselExampleInterval{
-  
-  
-}
-
-
-
-
-
-@media (max-width: 768px) {
-
-
-  .card-group{
-    display: none;
-  }
-
-
-  .img-redes{
-  height: 23px;
-  margin: 0;
-  padding: 0;
-
-  
-}
-.menu-button{
-  display: none;
-}
-
-  .nav {
-    display: none;
-  }
-  .description p{
-    text-align: center;
-  }
-
-
-  .description{
-    width: 100%;
-    justify-content: space-around;
-  }
-
-  .conteiner-tag{
-    height: 110vh;
-    align-items: center;
-    flex-direction: column;
-      
-  }
-  .tag img{
-    position: static;
-  }
-
-  .sidebar{
-    display: none;
-    width: 100%;
-    height: 100vh;
->>>>>>> 5544ea61f5b09844df4cf081d67a12519b4b7b83
     }
     
-<<<<<<< HEAD
     .accordion {
         display: none;
     }
@@ -533,6 +279,10 @@ height: 180px ;
         justify-content: center;
         align-items: center;
     }
+
+
+
+    
     
     @media (max-width: 768px) {
         .card-group {
@@ -587,46 +337,5 @@ height: 180px ;
         .accordion-body {
             background-image: linear-gradient(132.6deg, rgba(71, 139, 214, 0.7) 23.3%, rgba(37, 216, 211, 1) 84.7%);
         }
-        .contacto {
-            border
+        
         }
-=======
-   .fuhr{
-    margin-bottom: 0;
-    height: 300px;
-
-   }
-
-
-   .conteiner-code{
-    width: 80%;
-    justify-content: center;
-    align-items: center;
-   }
-
-
-   .conteiner-code img{
-     padding: 10px;
-   }
-
-
-    .accordion {
-    display: block;
-   }
-
-
-.accordion-body{
-  background-image: linear-gradient( 132.6deg,  rgba(71,139,214,0.7) 23.3%, rgba(37,216,211,1) 84.7% );
-}
-
-
-#carouselExampleInterval{
-  
-  
-   display: block;
-}
-
-
-}
-
->>>>>>> 5544ea61f5b09844df4cf081d67a12519b4b7b83
