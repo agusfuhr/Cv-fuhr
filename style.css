@@ -90,6 +90,72 @@
     #boton #boton1 {
         display: none;
     }
+
+
+
+    .conteiner-menu{
+        display: none;
+    }
+
+    
+    
+    .menu-toggle2{
+        display: none;
+    }
+
+
+    .menu-button2 {
+        display: none;
+    }
+    
+    .menu-button2 {
+        width: 30px;
+        padding: 5px;
+        border-radius: 7px;
+        background: #478AD6;
+        cursor: pointer;
+        border-style: solid;
+    }
+
+
+    .menu-list{
+        display: none;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .menu-list ul{
+        width: 50%;
+        padding-left: 1px;
+        padding-top: 2vh;
+        position: absolute;
+        top: 10vh; left: 0px;
+        background-color: #7FAEE2;
+        border-radius: 6px;
+        border-radius: 8px;
+        border: black 1px double;
+        z-index: 10;
+    }
+    
+    .menu-list ul li a{
+        color: black;
+        text-decoration: underline;
+    }
+    .menu-list ul li a:hover{
+        cursor: pointer;
+    }
+    
+    .menu-list ul li{ 
+        border-radius: 8px;
+        border: black 2px double;    
+        text-align: center;
+        margin: 10px auto;
+        display: block;
+        text-decoration: none;
+                       
+        }
+    
     
     .sidebar {
         display: flex;
@@ -400,6 +466,26 @@ box-shadow: 0px -20px 19px -10px rgba(0,0,0,0.1);
         .nav {
             display: none;
         }
+
+
+
+        .menu-button2{
+            display: block;
+        }
+
+        .conteiner-menu{
+            display: block;
+        }
+
+
+        .menu-toggle2:checked+.menu-list {
+            display: block;
+        }
+
+
+
+
+
         .description p {
             text-align: center;
         }
