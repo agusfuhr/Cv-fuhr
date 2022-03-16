@@ -11,7 +11,7 @@
     }
     
     .nav-conteiner {
-        margin-bottom: 10px;
+        margin-bottom: 3px;
         height: 10vh;
         width: 100%;
         display: flex;
@@ -157,6 +157,8 @@
         }
     
     
+
+
     .sidebar {
         display: flex;
         flex-direction: column;
@@ -165,9 +167,15 @@
         background-color: rgb(255, 255, 255, 0.8);
         width: 30vw;
         height: 100%;
-        border-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
     
+    .sidebar h3{
+        text-decoration: underline;
+    }
+
+
+
     .conteiner {
         display: flex;
         align-content: space-between;
@@ -279,7 +287,7 @@
         padding: 10px;
         width: 60vw;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: row;
         align-items: center;
         border: 2px solid black;
@@ -363,6 +371,14 @@
     
     .card-group {
         padding: 10px;
+    }
+
+    .card-text{
+        text-align: justify;
+    }
+
+    .card-title{
+        text-align: center;
     }
     
     .contacto {
@@ -451,7 +467,9 @@ box-shadow: 0px -20px 19px -10px rgba(0,0,0,0.1);
     
     
 
-    @media (max-width: 768px) {
+    @media (max-width: 810px) {
+
+
         .card-group {
             display: none;
         }
@@ -483,12 +501,10 @@ box-shadow: 0px -20px 19px -10px rgba(0,0,0,0.1);
         }
 
 
-
-
-
         .description p {
             text-align: center;
         }
+
         .description {
             width: 100%;
             justify-content: space-around;
@@ -507,7 +523,7 @@ box-shadow: 0px -20px 19px -10px rgba(0,0,0,0.1);
             height: 100vh;
         }
         .fuhr {
-            margin-bottom: 0;
+            margin-bottom: 0px;
             height: 200px;
         }
         .conteiner-code {
