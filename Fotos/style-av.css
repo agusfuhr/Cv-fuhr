@@ -98,6 +98,21 @@ h1{
     #gallery{
     -webkit-column-count:1;
     -moz-column-count:1;
+
+
+        .image-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image-container img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container.clicked img {
+    transform: scale(2);
+}
     column-count:1;
   }  
 }
