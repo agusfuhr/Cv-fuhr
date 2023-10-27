@@ -1,20 +1,8 @@
+const imageContainer = document.querySelector('.image-container');
 
-
-img = document.getElementById("img1");
-// Function to set image dimensions
-function enlargeImg() {
-    img.style.width = "60%";
-    img.style.height = "auto";
-    img.style.transition = "width 0.5s ease";
-}
-
-// Function to reset image dimensions
-function resetImg() {
-    img.style.width = "100%";
-    img.style.height = "auto";
-    img.style.transition = "width 0.5s ease";
-    
-}
+imageContainer.addEventListener('click', function() {
+    this.classList.toggle('clicked');
+});
 
 
 
