@@ -1,9 +1,10 @@
-const imageContainer = document.querySelector('.image-container');
+document.addEventListener('DOMContentLoaded', (event) => {
+    const imagen = document.querySelector('.imagen');
 
-imageContainer.addEventListener('click', function() {
-    this.classList.toggle('clicked');
+    imagen.addEventListener('click', () => {
+        imagen.classList.toggle('ampliada');
+    });
 });
-
 
 
 
