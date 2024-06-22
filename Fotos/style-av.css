@@ -104,6 +104,6 @@ h1{
     cursor: pointer;
 }
 
-.imagen ampliada {
+.imagen .ampliada {
     transform: scale(1.5);
 }
