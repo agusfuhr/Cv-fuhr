@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    const imagen = document.querySelector('img-responsive');
+    const imagen = document.querySelector('.img-responsive');
 
     imagen.addEventListener('click', () => {
         imagen.classList.toggle('ampliada');
