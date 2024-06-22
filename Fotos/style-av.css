@@ -26,7 +26,14 @@ h1{
    text-decoration: underline;
  }
 
+.imagen  {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
 
+.ampliada {
+    transform: scale(1.5);
+}
  
   #gallery img {
     width:100%;
@@ -99,11 +106,4 @@ h1{
     -webkit-column-count:1;
     -moz-column-count:1;
 
-.imagen  {
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
 
-.ampliada {
-    transform: scale(1.5);
-}
