@@ -99,11 +99,11 @@ h1{
     -webkit-column-count:1;
     -moz-column-count:1;
 
-.img-responsive {
+.imagen  {
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 
-.imagen .ampliada {
+.ampliada {
     transform: scale(1.5);
 }
