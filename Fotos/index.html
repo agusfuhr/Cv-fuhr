@@ -249,15 +249,21 @@
     
     
     <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
+       document.addEventListener('DOMContentLoaded', (event) => {
     const imagenes = document.querySelectorAll('.imagen');
 
     imagenes.forEach((imagen) => {
         imagen.addEventListener('click', () => {
             imagen.classList.toggle('ampliada');
-            });
+            
+            if (imagen.classList.contains('ampliada')) {
+                setTimeout(() => {
+                    imagen.classList.remove('ampliada');
+                }, 4000); // 4000 milisegundos = 4 segundos
+            }
         });
-     });       
+    });
+});  
     </script>
 
 </body>
