@@ -249,11 +249,12 @@
     
     
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const imagen = document.querySelector('.imagen');
+        document.addEventListener('DOMContentLoaded', (event) => {
+    const imagenes = document.querySelectorAll('.imagen');
 
-            imagen.addEventListener('click', () => {
-                imagen.classList.toggle('ampliada');
+    imagenes.forEach((imagen) => {
+        imagen.addEventListener('click', () => {
+            imagen.classList.toggle('ampliada');
             });
         });
     </script>
