@@ -422,43 +422,41 @@
         text-decoration: underline;
         color: black;
     }
+.contacto {
+    margin: 20px auto;
+    padding: 2rem;
+    background-color: rgb(184, 193, 236, 0.3);
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .contacto {
-        margin: 10px auto;
-        border-radius: 15%;
-        background-color: rgb(184, 193, 236, 0.3);
-        width: 40vw;
-        border: rgb(255, 255, 255, 0.8) 2px solid;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        box-shadow: 0px 0px 14px 5px rgba(0,0,0,0.1);
+.contacto input, .contacto textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
 
-    }
+.contacto button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto button:hover {
+    background-color: #0056b3;
+}
     
-    .contacto h3 {
-        margin-top: 20px;
-    }
-    
-    .contacto input {
-        margin: 15px auto;
-    }
-    
-    .contacto textarea {
-        
-        width: 75%;
-        height: 20vh;
-    }
-    
-    .conteiner-contacto {
-        padding-bottom: 2rem;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
 
 
 #carouselExampleInterval{
