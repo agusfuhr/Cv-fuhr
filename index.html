@@ -336,15 +336,15 @@
 
 
 
-    <div class="conteiner-contacto">
-        <div class="contacto">
-            <h3>Contacto</h3>
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="Mail">
-            <textarea name="consulta" placeholder="Consulta"></textarea>
-            <input type="submit">
-        </div>
-
+    <div class="contacto">
+    <h3>¡Contáctame!</h3>
+        <form action="enviar_correo.php" method="POST">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+        </form>
+    </div>
     </div>
 
     <div class="footer">
